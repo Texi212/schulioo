@@ -1,0 +1,24 @@
+import { HistoryEvent } from '../types';
+
+export const HISTORY_EVENTS: HistoryEvent[] = [
+  { id: '1', year: -3000, displayYear: 'ca. 3000 v. Chr.', era: 'Antike', title: 'Erfindung der Keilschrift & Hieroglyphen', description: 'Beginn der geschriebenen Geschichte in Mesopotamien und Altem Ägypten.', category: 'Kultur & Wissenschaft' },
+  { id: '2', year: -753, displayYear: '753 v. Chr.', era: 'Antike', title: 'Mythische Gründung Roms', description: '„753 – Rom schlüpft aus dem Ei“: Beginn des Römischen Reiches am Tiber.', category: 'Krieg & Politik' },
+  { id: '3', year: -508, displayYear: '508 v. Chr.', era: 'Antike', title: 'Attische Demokratie in Athen', description: 'Kleisthenes reformiert die Verfassung und begründet die erste Volksherrschaft.', category: 'Krieg & Politik' },
+  { id: '4', year: 476, displayYear: '476 n. Chr.', era: 'Mittelalter', title: 'Untergang des Weströmischen Reiches', description: 'Absetzung von Kaiser Romulus Augustulus; markiert traditionell das Ende der Antike.', category: 'Krieg & Politik' },
+  { id: '5', year: 800, displayYear: '800 n. Chr.', era: 'Mittelalter', title: 'Krönung Karls des Großen', description: 'Papst Leo III. krönt Karl den Großen in Rom zum Kaiser des Frankenreichs.', category: 'Krieg & Politik' },
+  { id: '6', year: 1215, displayYear: '1215', era: 'Mittelalter', title: 'Unterzeichnung der Magna Carta', description: 'Englands König Johann Ohneland garantiert Grundrechte des Adels; Grundstein des Verfassungsrechts.', category: 'Gesellschaft & Entdeckungen' },
+  { id: '7', year: 1440, displayYear: 'ca. 1440', era: 'Frühe Neuzeit', title: 'Erfindung des Buchdrucks', description: 'Johannes Gutenberg revolutioniert mit beweglichen Metall-Lettern die Wissensverbreitung.', category: 'Kultur & Wissenschaft' },
+  { id: '8', year: 1492, displayYear: '1492', era: 'Frühe Neuzeit', title: 'Kolumbus erreicht Amerika', description: 'Beginn des globalen Zeitalters der Entdeckungen und der europäischen Kolonialisierung.', category: 'Gesellschaft & Entdeckungen' },
+  { id: '9', year: 1517, displayYear: '1517', era: 'Frühe Neuzeit', title: 'Martin Luthers 95 Thesen', description: 'Beginn der Reformation und Spaltung der westlichen Kirche in Wittenberg.', category: 'Kultur & Wissenschaft' },
+  { id: '10', year: 1648, displayYear: '1648', era: 'Frühe Neuzeit', title: 'Westfälischer Frieden', description: 'Ende des Dreißigjährigen Krieges; Etablierung des modernen Staatensystems.', category: 'Krieg & Politik' },
+  { id: '11', year: 1789, displayYear: '1789', era: '19. Jahrhundert', title: 'Französische Revolution', description: 'Sturm auf die Bastille; Erklärung der Menschen- und Bürgerrechte („Freiheit, Gleichheit, Brüderlichkeit“).', category: 'Krieg & Politik' },
+  { id: '12', year: 1848, displayYear: '1848', era: '19. Jahrhundert', title: 'Märzrevolution in Deutschland', description: 'Erstes frei gewähltes deutsches Parlament in der Frankfurter Paulskirche.', category: 'Krieg & Politik' },
+  { id: '13', year: 1871, displayYear: '1871', era: '19. Jahrhundert', title: 'Deutsche Reichsgründung', description: 'Otto von Bismarck proklamiert das Deutsche Kaiserreich in Versailles.', category: 'Krieg & Politik' },
+  { id: '14', year: 1914, displayYear: '1914 – 1918', era: '20. Jahrhundert', title: 'Erster Weltkrieg', description: '„Urkatastrophe des 20. Jahrhunderts“, Fall von vier großen europäischen Monarchien.', category: 'Krieg & Politik' },
+  { id: '15', year: 1919, displayYear: '1919', era: '20. Jahrhundert', title: 'Weimarer Republik', description: 'Erste parlamentarische Demokratie in Deutschland mit Frauenwahlrecht.', category: 'Krieg & Politik' },
+  { id: '16', year: 1939, displayYear: '1939 – 1945', era: '20. Jahrhundert', title: 'Zweiter Weltkrieg & Holocaust', description: 'Überfall auf Polen durch Nazi-Deutschland; Befreiung und Gründung der Vereinten Nationen.', category: 'Krieg & Politik' },
+  { id: '17', year: 1949, displayYear: '1949', era: '20. Jahrhundert', title: 'Gründung von BRD und DDR', description: 'Verkündung des Grundgesetzes für die Bundesrepublik Deutschland; Teilung Deutschlands.', category: 'Krieg & Politik' },
+  { id: '18', year: 1969, displayYear: '1969', era: '20. Jahrhundert', title: 'Erste bemannte Mondlandung (Apollo 11)', description: 'Neil Armstrong betritt als erster Mensch den Mond („Ein kleiner Schritt...“).', category: 'Kultur & Wissenschaft' },
+  { id: '19', year: 1989, displayYear: '1989 / 1990', era: '20. Jahrhundert', title: 'Fall der Berliner Mauer & Wiedervereinigung', description: 'Friedliche Revolution in der DDR; Deutsche Einheit am 3. Oktober 1990.', category: 'Krieg & Politik' },
+  { id: '20', year: 2002, displayYear: '2002', era: 'Gegenwart', title: 'Einführung des Euro als Bargeld', description: 'Gemeinsame europäische Währung in 12 EU-Staaten eingeführt.', category: 'Gesellschaft & Entdeckungen' },
+];

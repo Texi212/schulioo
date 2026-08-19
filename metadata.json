@@ -1,0 +1,6 @@
+{
+  "name": "SchulPortal Plus - Schüler Cockpit & Werkzeugkasten",
+  "description": "Das ultimative Portal für Schüler mit über 20 interaktiven Werkzeugen: Lern-Timer, Karteikarten, Universeller Einheiten-Konverter, Notenrechner, Periodensystem, Formelsammlung, Stundenplan und intelligenter Suchleiste.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
